@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs
+      title="Issue Labels Chart"
+      description="Displays a bar chart of issue labels for a selected project"
+      author="Emircan Karadeniz"
+      author_email="emircan.karadeniz@turkcell.com.tr">
+  </ModulePrefs>
+  
+  <Content>
+  <Type>html</Type>
+  <Script src="https://cdn.jsdelivr.net/npm/chart.js"></Script>
+  <Script src="scripts/main.js"></Script>
+  <Content type="html">
+    <![CDATA[
+      <div>
+        <canvas id="chart" width="400" height="400"></canvas>
+        <div id="content"></div>
+      </div>
+    ]]>
+  </Content>
+</Content>
+
+</Module>
